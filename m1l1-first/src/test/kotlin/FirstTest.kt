@@ -4,6 +4,6 @@ import kotlin.test.assertEquals
 class FirstTest {
     @Test
     fun test(){
-        assertEquals(5,1+4)
+        assertEquals("Hello World","Hello World")
     }
 }
