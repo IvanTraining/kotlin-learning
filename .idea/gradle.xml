@@ -4,12 +4,36 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/academic-modules" name="academic-modules">
+                <projects>
+                  <project path="$PROJECT_DIR$/academic-modules" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/plugins" name="plugins">
+                <projects>
+                  <project path="$PROJECT_DIR$/plugins" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/project-modules" name="project-modules">
+                <projects>
+                  <project path="$PROJECT_DIR$/project-modules" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleJvm" value="21" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/academic-modules" />
             <option value="$PROJECT_DIR$/m1l1-first" />
+            <option value="$PROJECT_DIR$/plugins" />
+            <option value="$PROJECT_DIR$/project-modules" />
           </set>
         </option>
       </GradleProjectSettings>

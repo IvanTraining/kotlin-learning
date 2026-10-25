@@ -1,8 +1,10 @@
 plugins {
-    kotlin("jvm")
+    // Подключаем плагин Kotlin JVM через каталог версий
+    alias(libs.plugins.kotlin.jvm)
 }
 
 dependencies {
-    implementation(kotlin("stdlib-jdk8"))
-    testImplementation(kotlin("test"))
+    // Используем библиотеки из каталога версий
+    implementation(libs.kotlin.stdlib)
+    testImplementation(libs.kotlin.test)
 }
