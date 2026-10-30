@@ -12,6 +12,6 @@ dependencyResolutionManagement {
     }
 }
 
+includeBuild("m1l1-first")
 includeBuild("academic-modules")
 includeBuild("project-modules")
-include("m1l1-first")

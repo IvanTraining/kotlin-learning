@@ -12,6 +12,11 @@
                   <project path="$PROJECT_DIR$/academic-modules" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/m1l1-first" name="m1l1-first">
+                <projects>
+                  <project path="$PROJECT_DIR$/m1l1-first" />
+                </projects>
+              </build>
               <build path="$PROJECT_DIR$/plugins" name="plugins">
                 <projects>
                   <project path="$PROJECT_DIR$/plugins" />
