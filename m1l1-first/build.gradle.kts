@@ -1,8 +1,3 @@
 plugins {
-    kotlin("jvm")
-}
-
-dependencies {
-    implementation(kotlin("stdlib-jdk8"))
-    testImplementation(kotlin("test"))
+    id("myproject.jvm-conventions")
 }
