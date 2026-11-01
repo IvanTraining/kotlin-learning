@@ -12,3 +12,5 @@ build/
 
 ### Kotlin ###
 .kotlin
+/AGENTS.md
+/.explyt/
