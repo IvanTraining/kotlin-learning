@@ -1,0 +1,24 @@
+{
+  "realm" : "recipe-book",
+  "users" : [ {
+    "id" : "638647df-d9e4-4759-8748-6f99ac220d11",
+    "createdTimestamp" : 1706964619142,
+    "username" : "recipe-user",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : true,
+    "credentials" : [ {
+      "id" : "56beee96-cf26-4f6e-83db-8138530e0148",
+      "type" : "password",
+      "userLabel" : "My password",
+      "createdDate" : 1706964634548,
+      "secretData" : "{\"value\":\"0D8wun2JZ0+X42zs+Zna8stYy0SD+yCKvii/s/9ACyQ=\",\"salt\":\"jrZ7Ihl9M7UAdyLVG9vTmg==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-recipe-book" ],
+    "notBefore" : 0,
+    "groups" : [ "/USER" ]
+  } ]
+}
