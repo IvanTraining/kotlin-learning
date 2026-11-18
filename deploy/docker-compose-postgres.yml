@@ -1,0 +1,24 @@
+# Оставил как шпаргалку для дальнейшей работы в проекте с Postgres
+version: '3'
+services:
+  psql:
+    image: postgres
+    container_name: postgresql
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    expose:
+      - "5432"
+    environment:
+      POSTGRES_PASSWORD: recipe-book-pass
+      POSTGRES_USER: postgres
+      POSTGRES_DB: recipe_book
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:

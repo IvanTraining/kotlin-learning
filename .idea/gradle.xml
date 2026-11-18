@@ -12,6 +12,11 @@
                   <project path="$PROJECT_DIR$/academic-modules" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/build-plugin" name="backend-build">
+                <projects>
+                  <project path="$PROJECT_DIR$/build-plugin" />
+                </projects>
+              </build>
               <build path="$PROJECT_DIR$/m1l1-first" name="m1l1-first">
                 <projects>
                   <project path="$PROJECT_DIR$/m1l1-first" />
@@ -36,6 +41,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/academic-modules" />
+            <option value="$PROJECT_DIR$/build-plugin" />
             <option value="$PROJECT_DIR$/m1l1-first" />
             <option value="$PROJECT_DIR$/plugins" />
             <option value="$PROJECT_DIR$/project-modules" />

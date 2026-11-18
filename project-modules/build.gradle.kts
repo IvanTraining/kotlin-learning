@@ -1,3 +1,3 @@
 plugins {
-    id("myproject.multiplatform-conventions")
+    id("myproject.jvm-conventions")
 }
